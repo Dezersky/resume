@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed&display=swap');
+
+body{
+    background-color: rgb(231, 231, 231);
+    font-family: 'Sofia Sans Semi Condensed', verdana, sans-serif;
+    font-size: large;
+    font-weight: 400;
+    font-style:italic;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-decoration: dotted;
+    color: rgb(39, 30, 30);
+    padding-left: 10px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+ .down_move {
+        border: 2px  rgb(19, 17, 17);
+        display: inline-flex;
+        margin: 10px;
+       margin-top: 250px;
+    }
+
+@media (max-width: 1200px) {
+    .down_move {
+     margin-top: 300px;}
+}
+
+   
+
+.left {
+    border: 2px  rgb(19, 17, 17);
+    background-color: rgb(195, 240, 229);
+    border-radius: 8px;
+    margin-top: 0;
+    padding-left: 10px;
+    text-align: center;
+}
+.right {
+    border: 2px  rgb(19, 17, 17);
+    background-color: rgb(123, 125, 134);
+    border-radius: 8px;
+    margin-top: 0;
+    display: block;
+    margin-left: 12px;
+    width: 61% ;
+}
+.one td {
+    color:rgb(15, 25, 46);
+    font-size: 20px;
+    padding: 0px;
+
+   
+}
+.dm1 {
+ color: rgb(84, 85, 87);
+ font-size: 15px;
+ margin-top: 5;
+ padding: 12px;
+  ;
+
+}
+.btn {
+    background-color: darkolivegreen;
+    padding: 10px;
+    color:rgb(253, 208, 208);
+    border-radius: 8px;
+    border: none;
+    box-shadow:  4px 4px 14px rgba(0, 0, 0, 0.8);
+   
+}
+.btn:hover {
+    background-color: aquamarine;
+    color: black;
+}
+
+.linki {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.linki h4{
+    margin-bottom: 0;
+}
+a{
+    color: darkslategrey;
+    text-decoration: none;
+    
+}
+a:hover{
+    color:rgb(108, 132, 240);
+    font-size: larger;
+}
+.up_stand {
+    position:fixed;
+    border: 2px  rgb(19, 17, 17);
+    display: inline-flex;
+    margin: 10px;
+    z-index: 4;
+    opacity: 13;
+}
+.us2 {
+    position: fixed;
+    border: 2px  rgb(19, 17, 17);
+    display: inline-flex;
+    margin: 10px;
+    z-index: 4;
+    opacity: 13;
+    border-radius: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.8);
+}
+.us1 {
+    padding-left: 30px;
+    border: 2px  rgb(19, 17, 17);
+    background-color: rgb(177, 197, 192);
+    border-radius: 8px;
+    margin: 10px;
+    margin-left: 180px;
+    width: 50%;
+    text-align: left;
+}
+.us1 p{
+    margin-bottom: 15px;
+}
+.us1 h1 hr{
+    margin: 30px;;
+}
+@media (max-width: 725px) {
+    .up_stand {
+        position:static;
+        border: 2px  rgb(19, 17, 17);
+        display: block;
+        margin: 10px;
+        z-index: 0;
+        opacity: 13;
+    }
+    .us2 {
+        position: static;
+        border: 2px  rgb(19, 17, 17);
+        display: block;
+        margin: 10px;
+        z-index: 4;
+        opacity: 13;
+        width: 150px;
+        border-radius: 10px;
+        box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.8);
+        text-align: center;
+    }
+    .us1 {
+        padding-left: 30px;
+        border: 2px  rgb(19, 17, 17);
+        background-color: rgb(177, 197, 192);
+        border-radius: 8px;
+        margin: 10px;
+        margin-left: 0px;
+        font-size: small;
+        width: 90%;
+        text-align: left;
+    }
+    .down_move {
+        border: 2px  rgb(19, 17, 17);
+        display: block;
+        margin: 10px;
+        margin-top: 10px;
+        }
+    .left {
+        border: 2px  rgb(19, 17, 17);
+        background-color: rgb(195, 240, 229);
+        border-radius: 8px;
+        margin-top: 0;
+        padding-left: 5px;
+        text-align: center;
+        font-size: small;
+        }
+        .right {
+        border: 2px  rgb(19, 17, 17);
+        background-color: rgb(123, 125, 134);
+        border-radius: 8px;
+        margin-top: 0;
+        display: block;
+        margin-left: 12px;
+        width: 90% ;
+        font-size: small;
+        }    
+        
+} 
+.spis1 td {
+text-align: left;
+padding-bottom: 15px;
+padding-left: 10px;
+}
+.tab_color{
+    background-color: cornflowerblue;
+}
+.form_str {
+    position: relative;
+    display: inline-flex;
+    text-align: left;
+    flex-direction: column;
+    margin: 10px;
+}
+#name {
+    display: block;
+}
